@@ -55,3 +55,22 @@ spark-bigdata-ml-portfolio/
 │
 └── README.md
 ```
+# Dataset
+
+This project uses a retail sales dataset (Retailsales.csv).
+
+Due to file size limitations, the dataset is not included in this repository.
+
+## Dataset Description
+
+The dataset contains:
+
+- product_id
+- store_id
+- date
+- sales
+- revenue
+- promotion types
+- stock levels
+
+The data was used for distributed processing and aggregation using Apache Spark (RDD and DataFrame APIs).
