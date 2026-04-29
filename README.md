@@ -35,25 +35,20 @@ This repository contains a collection of Apache Spark projects covering:
 spark-bigdata-ml-portfolio/
 │
 ├── 01_retail_big_data/
-│   ├── distributed_spark_retail.ipynb
-│   └── retailsales.csv
 │
 ├── 02_spark_etl_data_integration/
-│   └── etl_pipeline.ipynb
 │
-├── 03_ml_classification/
-│   ├── classification_sparkml.ipynb
-│   └── ml_pipeline.ipynb
+├── 03_ml_regression/
+│   └── airfoil_regression_pipeline.ipynb   
 │
-├── 04_ml_regression/
-│   ├── regression_sparkml.ipynb
-│   └── model_persistence.ipynb
+├── 04_ml_classification/
+│   └── classification_sparkml.ipynb        
 │
 ├── 05_clustering/
-│   └── clustering_sparkml.ipynb
+│   └── clustering_sparkml.ipynb            
 │
 ├── 06_streaming/
-│   └── structured_streaming.ipynb
+│   └── structured_streaming.ipynb          
 │
 └── README.md
 ```
