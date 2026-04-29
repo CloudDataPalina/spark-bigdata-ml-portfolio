@@ -36,21 +36,23 @@ spark-bigdata-ml-portfolio/
 │
 ├── 01_retail_big_data/
 │   ├── distributed_spark_retail.ipynb
-│   ├── etl_pipeline.ipynb
 │   └── retailsales.csv
 │
-├── 02_ml_classification/
+├── 02_spark_etl_data_integration/
+│   └── etl_pipeline.ipynb
+│
+├── 03_ml_classification/
 │   ├── classification_sparkml.ipynb
 │   └── ml_pipeline.ipynb
 │
-├── 03_ml_regression/
+├── 04_ml_regression/
 │   ├── regression_sparkml.ipynb
 │   └── model_persistence.ipynb
 │
-├── 04_clustering/
+├── 05_clustering/
 │   └── clustering_sparkml.ipynb
 │
-├── 05_streaming/
+├── 06_streaming/
 │   └── structured_streaming.ipynb
 │
 └── README.md
