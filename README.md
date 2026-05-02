@@ -1,73 +1,226 @@
-# Apache Spark Big Data & ML Portfolio
+## 🚀 Apache Spark Big Data & Machine Learning Portfolio
+![Apache Spark](https://img.shields.io/badge/Apache-Spark-orange?logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-Data_Processing-yellow)
+![Spark ML](https://img.shields.io/badge/Spark-ML-blue)
+![Streaming](https://img.shields.io/badge/Streaming-Real_Time-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-This repository contains a collection of Apache Spark projects covering:
+### ✅ Project Status
 
-- Big Data processing (RDD, DataFrames)
-- ETL pipelines
+This portfolio contains a complete set of Apache Spark projects covering Big Data processing, ETL pipelines, Machine Learning, and Real-Time Streaming.
+
+All projects are implemented and tested in a controlled lab environment and demonstrate real-world data engineering workflows.
+
+---
+
+### 📌 Project Overview
+
+This repository showcases end-to-end data engineering and machine learning pipelines built using Apache Spark.
+
+The portfolio covers:
+
+- Distributed data processing (RDD, DataFrames)
+- ETL pipeline design
 - Spark SQL analytics
-- Machine Learning (classification, regression, clustering)
-- ML pipelines and model persistence
-- Structured Streaming
+- Machine Learning pipelines (Regression, Classification, Clustering)
+- Model evaluation and persistence
+- Real-time data processing with Spark Structured Streaming
 
-## Projects
+---
 
-### 1. Retail Big Data Analytics
-- Distributed processing using Spark
+### 📂 Projects
+
+#### 🔹 01. Retail Big Data Analytics
+- Distributed data processing using Spark (RDD & DataFrame APIs)
 - Sales and revenue aggregation
-- ETL pipeline
+- ETL pipeline implementation
+- Business KPI analysis
 
-### 2. Classification
-- Spark ML classification models
-- Evaluation metrics
+---
 
-### 3. Regression
-- Regression models
-- Model persistence
+#### 🔹 02. PySpark ETL Pipeline
+- Data ingestion and transformation
+- Data cleaning and normalization
+- Structured ETL workflow using Spark DataFrames
+- Data export for downstream processing
 
-### 4. Clustering
-- KMeans clustering
+---
 
-### 5. Streaming
-- Real-time data processing using Spark Structured Streaming
+#### 🔹 03. ML Regression (Airfoil Noise Prediction)
+- Built regression pipeline using Spark ML
+- Feature engineering with VectorAssembler and StandardScaler
+- Linear Regression model training
+- Model evaluation (MSE, MAE, R²)
+- Model persistence and inference
+
+---
+
+#### 🔹 04. ML Classification (Dry Beans)
+- Multiclass classification using Spark ML
+- Label encoding with StringIndexer
+- Logistic Regression model
+- Evaluation metrics (Accuracy, Precision, Recall, F1)
+- Inference on new data
+
+---
+
+#### 🔹 05. Customer Segmentation (Clustering)
+- Unsupervised learning with KMeans
+- Feature vector creation using VectorAssembler
+- Cluster analysis and interpretation
+- Customer segmentation insights
+- Silhouette score evaluation
+
+---
+
+#### 🔹 06. Real-Time Streaming (HVAC Monitoring)
+- Simulated real-time sensor data using Spark Structured Streaming
+- Streaming SQL queries for real-time analytics
+- Detection of anomalies (temperature, humidity)
+- Window-based aggregations
+- Continuous streaming output processing
+- Proper management of streaming queries
+
+---
 
 ### 📂 Project Structure
 ```
 spark-bigdata-ml-portfolio/
 │
 ├── 01_retail_big_data/
+│ ├── retail_data_processing_spark.ipynb        ← Distributed data processing & KPI analytics
+│ ├── data                                      ← Raw retail dataset
+│ └── output                                    ← Processed results & aggregations
 │
-├── 02_spark_etl_data_integration/
+├── 02_pyspark_etl_pipeline/
+│ ├── pyspark_etl_pipeline.ipynb                ← End-to-end ETL pipeline (cleaning, transformation)
+│ ├── data                                      ← Input datasets
+│ └── output                                    ← Transformed/exported data
 │
 ├── 03_ml_regression/
-│   └── airfoil_regression_pipeline.ipynb   
+│ ├── airfoil_regression_pipeline.ipynb         ← Regression pipeline (Spark ML)
+│ ├── data                                      ← Airfoil dataset
+│ ├── images                                    ← Visualizations / model insights
+│ └── output                                    ← Predictions & evaluation results
 │
 ├── 04_ml_classification/
-│   └── classification_sparkml.ipynb        
+│ ├── dry_beans_classification.ipynb            ← Multiclass classification pipeline
+│ ├── data                                      ← Dry beans dataset
+│ └── output                                    ← Predictions & metrics
 │
 ├── 05_clustering/
-│   └── clustering_sparkml.ipynb            
+│ ├── customer_segmentation_kmeans.ipynb        ← Customer segmentation using KMeans
+│ ├── data                                      ← Customer dataset
+│ └── output                                    ← Cluster results & insights
 │
 ├── 06_streaming/
-│   └── structured_streaming.ipynb          
+│ ├── hvac_streaming_pipeline.ipynb             ← Real-time streaming pipeline (IoT simulation)
+│ └── output                                    ← Streaming query outputs
 │
-└── README.md
+└── README.md                                   ← Project documentation
 ```
-# Dataset
 
-This project uses a retail sales dataset (Retailsales.csv).
+---
 
-Due to file size limitations, the dataset is not included in this repository.
+### 🛠️ Skills & Technologies
 
-## Dataset Description
+#### 🔧 Data Engineering
+- Apache Spark (RDD, DataFrames)
+- PySpark
+- ETL pipeline design
+- Data transformation and cleaning
 
-The dataset contains:
+#### 📊 Analytics
+- Spark SQL
+- Aggregations and window functions
+- KPI analysis
 
-- product_id
-- store_id
-- date
-- sales
-- revenue
-- promotion types
-- stock levels
+#### 🤖 Machine Learning (Spark ML)
+- Regression (Linear Regression)
+- Classification (Logistic Regression)
+- Clustering (KMeans)
+- Feature Engineering
+- Model evaluation (MSE, MAE, R², Accuracy, F1)
 
-The data was used for distributed processing and aggregation using Apache Spark (RDD and DataFrame APIs).
+#### ⚡ Streaming
+- Spark Structured Streaming
+- Real-time data simulation
+- Streaming SQL
+- Window-based aggregations
+- Event-driven analytics
+
+---
+
+### 🔄 Data Engineering Workflow
+
+```text
+Raw Data
+   │
+   ▼
+ETL Processing (Spark)
+   │
+   ▼
+Feature Engineering
+   │
+   ▼
+Machine Learning Models
+   │
+   ▼
+Evaluation & Insights
+   │
+   ▼
+Real-Time Streaming Analytics
+```
+
+---
+
+### 🔎 Key Engineering Highlights
+- End-to-end data pipelines from raw data to insights
+- Distributed data processing using Apache Spark
+- Implementation of multiple ML workflows in Spark ML
+- Real-time streaming pipeline with anomaly detection
+- Strong focus on clean architecture and reproducibility
+- Practical business-oriented insights from data
+  
+
+### 📊 Results & Outcomes
+- Built scalable pipelines for batch and streaming data
+- Implemented multiple ML models with strong evaluation metrics
+- Achieved ~91% accuracy in classification tasks
+- Generated meaningful customer segmentation using clustering
+- Designed real-time monitoring system with anomaly detection
+  
+
+### 🧠 What This Portfolio Demonstrates
+- Strong understanding of data engineering fundamentals
+- Ability to build end-to-end pipelines
+- Experience with Spark ecosystem (Core + ML + Streaming)
+- Knowledge of real-world data workflows
+- Readiness for Data Engineer / Junior Data Engineer roles
+
+---
+
+## 🧩 Real-World Use Cases
+
+- Retail analytics and sales optimization  
+- Customer segmentation for marketing  
+- Predictive modeling for business decisions  
+- Real-time monitoring systems (IoT, Smart Buildings)
+  
+---
+
+### 📝 Summary
+This portfolio demonstrates how Apache Spark can be used to:
+- Process large-scale data efficiently
+- Build scalable ETL pipelines
+- Train and evaluate machine learning models
+- Perform real-time analytics on streaming data
+- Generate actionable insights for business scenarios
+
+---
+
+## 👩‍💻 Author
+**Palina Krasiuk**  
+Aspiring Cloud Data Engineer | ex-Senior Accountant  
+[LinkedIn](https://www.linkedin.com/in/palina-krasiuk-954404372/) • [GitHub Portfolio](https://github.com/CloudDataPalina)
