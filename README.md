@@ -91,6 +91,7 @@ spark-bigdata-ml-portfolio/
 ├── 01_retail_big_data/
 │ ├── retail_data_processing_spark.ipynb        ← Distributed data processing & KPI analytics
 │ ├── data                                      ← Raw retail dataset
+│ ├── images                                    ← table image 
 │ └── output                                    ← Processed results & aggregations
 │
 ├── 02_pyspark_etl_pipeline/
