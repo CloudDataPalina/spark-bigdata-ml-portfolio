@@ -90,14 +90,14 @@ spark-bigdata-ml-portfolio/
 │
 ├── 01_retail_big_data/
 │ ├── retail_data_processing_spark.ipynb        ← Distributed data processing & KPI analytics
-│ ├── data                                      ← Raw retail dataset
-│ ├── images                                    ← table image 
-│ └── output                                    ← Processed results & aggregations
+│ ├── data                                      ← Dataset reference (download via link)
+│ ├── images                                    ← Dataset preview / visuals
+│ └── output                                    ← Aggregated results
 │
 ├── 02_pyspark_etl_pipeline/
-│ ├── pyspark_etl_pipeline.ipynb                ← End-to-end ETL pipeline (cleaning, transformation)
+│ ├── pyspark_etl_pipeline.ipynb                ← ETL pipeline
 │ ├── data                                      ← Input datasets
-│ └── output                                    ← Transformed/exported data
+│ └── output                                    ← Cleaned/exported data
 │
 ├── 03_ml_regression/
 │ ├── airfoil_regression_pipeline.ipynb         ← Regression pipeline (Spark ML)
@@ -116,7 +116,8 @@ spark-bigdata-ml-portfolio/
 │ └── output                                    ← Cluster results & insights
 │
 ├── 06_streaming/
-│ └── hvac_streaming_pipeline.ipynb             ← Real-time streaming pipeline (IoT simulation)
+│ ├── hvac_streaming_pipeline.ipynb             ← Real-time streaming pipeline (IoT simulation)
+│ └── output                                    ← streaming console results / logs (optional)
 │
 └── README.md                                   ← Project documentation
 ```
