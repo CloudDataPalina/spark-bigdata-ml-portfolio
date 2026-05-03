@@ -16,6 +16,6 @@ Columns:
 - promo_bin_1
 - promo_type_2
 
-Dataset preview:
+Dataset preview (first rows):
 
 ![Retail Dataset Preview](../images/retail_dataset_preview.png)
