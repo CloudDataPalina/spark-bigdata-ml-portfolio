@@ -18,4 +18,4 @@ Columns:
 
 Dataset preview:
 
-![Retail Dataset Preview](images/retail_dataset_preview.png)
+![Retail Dataset Preview](../images/retail_dataset_preview.png)
