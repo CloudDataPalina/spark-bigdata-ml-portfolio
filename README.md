@@ -115,8 +115,7 @@ spark-bigdata-ml-portfolio/
 │ └── output                                    ← Cluster results & insights
 │
 ├── 06_streaming/
-│ ├── hvac_streaming_pipeline.ipynb             ← Real-time streaming pipeline (IoT simulation)
-│ └── output                                    ← Streaming query outputs
+│ └── hvac_streaming_pipeline.ipynb             ← Real-time streaming pipeline (IoT simulation)
 │
 └── README.md                                   ← Project documentation
 ```
